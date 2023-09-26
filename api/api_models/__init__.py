@@ -1,6 +1,6 @@
 from flask_restx import fields
 
-from app.extenstions import api
+from api.extenstions import api
 
 login_model = api.model(
     "Login",

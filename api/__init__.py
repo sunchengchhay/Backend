@@ -1,8 +1,8 @@
 from flask import Flask
 from flask_cors import CORS
 
-from app.extenstions import api, db
-from app.resources import ns
+from api.extenstions import api, db
+from api.resources import ns
 
 
 def create_app():
