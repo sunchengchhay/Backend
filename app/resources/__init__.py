@@ -4,9 +4,9 @@ from datetime import datetime
 from flask import request
 import pytz
 
-from api.models import User
-from api.extenstions import db
-from api.api_models import register_model, login_model
+from app.models import User
+from app.extenstions import db
+from app.api_models import register_model, login_model
 
 ns = Namespace("Authentication",
                description="Authentication endpoint", path="/auth")
